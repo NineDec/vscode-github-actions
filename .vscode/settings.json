@@ -1,7 +1,83 @@
 {
-  "github-actions.workflows.pinned.workflows": [".github/workflows/build.yml"],
+  "github-actions.workflows.pinned.workflows": [
+    ".github/workflows/build.yml"
+  ],
   "editor.formatOnSave": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "editor.autoClosingComments": "always",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.codeLensFontSize": 10,
+  "editor.colorDecoratorsActivatedOn": "click",
+  "editor.columnSelection": true,
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.experimental.asyncTokenizationLogging": true,
+  "editor.experimental.asyncTokenizationVerification": true,
+  "editor.experimentalEditContextEnabled": true,
+  "editor.experimental.preferTreeSitter": [
+    "typescript"
+  ],
+  "editor.foldingStrategy": "indentation",
+  "editor.gotoLocation.alternativeDeclarationCommand": "editor.action.goToReferences",
+  "editor.gotoLocation.alternativeImplementationCommand": "editor.action.revealDefinition",
+  "editor.gotoLocation.alternativeReferenceCommand": "editor.action.referenceSearch.trigger",
+  "window.autoDetectColorScheme": true,
+  "accessibility.signalOptions.debouncePositionChanges": true,
+  "accessibility.signalOptions.experimental.delays.errorAtPosition": {
+    "sound": 1000
+  },
+  "accessibility.signalOptions.experimental.delays.general": {
+    "announcement": 3000
+  },
+  "accessibility.signalOptions.experimental.delays.warningAtPosition": {
+    "announcement": 3000
+  },
+  "accessibility.signals.codeActionTriggered": {
+    "sound": "off"
+  },
+  "explorer.excludeGitIgnore": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "Gem2.0": ""
+  },
+  "explorer.sortOrderReverse": true,
+  "remote.otherPortsAttributes": {
+    "onAutoForward": "notify"
+  },
+  "timeline.pageOnScroll": true,
+  "notebook.consolidatedRunButton": true,
+  "notebook.diff.ignoreMetadata": true,
+  "notebook.diff.ignoreOutputs": true,
+  "notebook.diff.overviewRuler": true,
+  "notebook.experimental.remoteSave": true,
+  "notebook.formatOnCellExecution": true,
+  "notebook.formatOnSave.enabled": true,
+  "notebook.markup.fontSize": 10,
+  "notebook.outline.showCodeCells": true,
+  "notebook.output.minimalErrorRendering": true,
+  "notebook.output.scrolling": true,
+  "notebook.output.wordWrap": true,
+  "notebook.stickyScroll.enabled": true,
+  "notebook.variablesView": true,
+  "interactiveWindow.executeWithShiftEnter": true,
+  "interactiveWindow.promptToSaveOnClose": true,
+  "chat.editor.fontSize": 16,
+  "inlineChat.finishOnType": true,
+  "inlineChat.lineEmptyHint": true,
+  "issueReporter.experimental.webReporter": true,
+  "amazonQ.suppressPrompts": {
+    "createCredentialsProfile": true,
+    "codeWhispererNewWelcomeMessage": true,
+    "codeWhispererConnectionExpired": true,
+    "amazonQWelcomePage": true,
+    "amazonQSessionConfigurationMessage": false,
+    "minIdeVersion": false,
+    "ssoCacheError": false
+  },
+  "anycode.language.features": {
+    "folding": true,
+    "diagnostics": true
+  },
+  "redhat.telemetry.enabled": true
 }
